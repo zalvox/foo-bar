@@ -1,0 +1,19 @@
+{
+  "name": "foo-bar",
+  "version": "1.0.0",
+  "description": "FooBar",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --test",
+    "format": "prettier --write \"./**/*.js\"",
+    "lint": "eslint \"./**/*.js\" --quiet"
+  },
+  "author": "Silvestro Ranucci",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.43.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.1.3",
+    "prettier": "^3.2.5"
+  }
+}
